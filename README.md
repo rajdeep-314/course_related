@@ -1,1 +1,1 @@
-# course_related
+For programs related to my courses at IIT Palakkad
