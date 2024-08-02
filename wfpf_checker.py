@@ -97,12 +97,13 @@ def check_helper(expression):
     return check(''.join(expression.replace('<->', '#').replace('->', '@').split()))
 
 
+# Demo
 # The user can enter as many expresssions
 # as they want. Not entering anything ends
 # the otherwise infinite loop
-while True:
-    input_expr = input("Enter an expression : ")
-    if input_expr:
-        print(["Invalid", "Valid"][check_helper(input_expr)])
-    else:
-        break
+# while True:
+#     input_expr = input("Enter an expression : ")
+#     if input_expr:
+#         print(["Invalid", "Valid"][check_helper(input_expr)])
+#     else:
+#         break
