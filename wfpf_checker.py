@@ -1,4 +1,5 @@
 # Well-formed propositional formula (WFPF) checker
+# Suggested by the instructor during CS2020A - Discrete Mathematics
 
 import string
 
