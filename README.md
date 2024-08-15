@@ -18,6 +18,9 @@ This repository is for programs related to or inspired by my courses at IIT Pala
 **[Foundations of Computing Systems]**
 
 - Boolean function to straight line: A program that takes a boolean function as input (as a truth table, maybe) and returns it's straight-line equivalent
+- Implement boolean functions using bash, maybe
+    - Implement a basic NAND gate, use it for developing further useful combinational circuits
+    - Maybe simulate sequential circuits too, somehow
 
 **[Linked to no particular course]**
 
