@@ -13,6 +13,7 @@ This repository is for programs related to or inspired by my courses at IIT Pala
 - WFPF checker: Checks if a given expression is a *well-formed propositional formula* (also known as a *well-formed propositional expression*)
 - Quantified predicate expression evaluator: Evaluates a simplistic *predicate expression* (also known as a *first-order logic expression*) of the form `[quantifier(s)] [predicate expression]`. Using Python's builtin `any` and `and` functions combined with generator expressions might turn this to a single line Python expression.
 - WFPF evaluator: A program to evaluate a given WFPF (after validating it). A possible (but boring) approach is to textually substitute each operator by the corresponding Python boolean operator. A more fundamental approach would be to implement operator precedence yourself (with an option to have a custom precedence), use a parse tree, among other related ideas.
+- Automated theorem prover: **Very** ambitious but maybe something like a very basic version of [coq](https://en.wikipedia.org/wiki/Coq_(software)), with a language to express first-order-logic-esque statements, etc.
 
 **[Foundations of Computing Systems]**
 
