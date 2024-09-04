@@ -21,9 +21,9 @@ This repository is for programs related to or inspired by my courses at IIT Pala
 - Implement boolean functions using bash, maybe
     - Implement a basic NAND gate, use it for developing further useful combinational circuits
     - Maybe simulate sequential circuits too, somehow
-- An assembler for HACK in Python (sort of as a precursor to the next point)a
-	- Acts on a .asm file, maybe passed as a command line argument
-	- Converts it to a file with each line representing a binary instruction. Saves the file with the extension .hack to be executed in the CPU Emulator
+- An assembler for HACK in Python (sort of as a precursor to the next point)
+	- Acts on a `.asm` file, maybe passed as a command line argument
+	- Converts it to a file with each line representing a binary instruction. Saves the file with the extension `.hack` (meant to be executed in the CPU Emulator)
 	- Perform some basic optimization, making the number of passes low, etc. This sounds very "explorable"
 - A two-pass assembler in OCaml
 
