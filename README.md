@@ -15,6 +15,7 @@ This repository is for programs related to or inspired by my courses at IIT Pala
 - WFPF evaluator: A program to evaluate a given WFPF (after validating it). A possible (but boring) approach is to textually substitute each operator by the corresponding Python boolean operator. A more fundamental approach would be to implement operator precedence yourself (with an option to have a custom precedence), use a parse tree, among other related ideas.
 - Automated theorem prover: **Very** ambitious but maybe something like a very basic version of [coq](https://en.wikipedia.org/wiki/Coq_(software)), with a language to express first-order-logic-esque statements, etc.
 
+
 **[Foundations of Computing Systems]**
 
 - Boolean function to straight line: A program that takes a boolean function as input (as a truth table, maybe) and returns it's straight-line equivalent
@@ -26,6 +27,20 @@ This repository is for programs related to or inspired by my courses at IIT Pala
 	- Converts it to a file with each line representing a binary instruction. Saves the file with the extension `.hack` (meant to be executed in the CPU Emulator)
 	- Perform some basic optimization, making the number of passes low, etc. This sounds very "explorable"
 - A two-pass assembler in OCaml
+
+
+**[Differential Equations]**
+
+- A `p5.js` program to draw *direction fields*
+	- A function `f(x)` is specified
+	- The screen shows a graduated graph
+	- Moving the pointer across the screen draws a direction curve passing through that point (similar to a flow line)
+	- The curves are color coded, maybe more intense for a higher value of f'(x) at some point
+	- There's a `max_length` for the array responsible for storing the direction curve's points. Evaluation of points for the array terminates when either of the directions' points either
+		- Exceed the screen length
+		- Exceed the screen height
+		- The number of elements in the array exceeds `max_length`
+
 
 **[Linked to no particular course]**
 
